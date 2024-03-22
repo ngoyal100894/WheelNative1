@@ -1,0 +1,6 @@
+// Define the types for your navigation parameters
+export type RootStackParamList = {
+	Home: undefined; // No parameters expected for the Home route
+	WebViewScreen: { url: string }; // WebViewScreen expects a parameter named url of type string
+	// Add other routes and their parameters here
+};

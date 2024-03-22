@@ -9,13 +9,23 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-navigation/native": "^6.1.17",
+    "@react-navigation/stack": "^6.3.29",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-native": "^4.1.0",
     "expo": "~50.0.14",
     "expo-status-bar": "~1.11.1",
+    "install": "^0.13.0",
+    "npm": "^10.5.0",
     "react": "18.2.0",
-    "react-native": "0.73.6"
+    "react-native": "0.73.6",
+    "react-native-gesture-handler": "^2.15.0",
+    "react-native-simple-radio-button": "^2.7.4",
+    "react-native-webview": "^13.8.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "eslint": "^8.57.0"
   },
   "private": true
 }

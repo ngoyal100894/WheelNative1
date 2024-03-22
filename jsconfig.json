@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"target": "es6",
+		"module": "commonjs",
+		"jsx": "react-native",
+		"checkJs": true,
+		"noEmit": true,
+		"baseUrl": ".",
+		"paths": {
+			"*": ["src/*"]
+		}
+	},
+	"exclude": ["node_modules", "babel.config.js", "metro.config.js", "index.js"]
+}
